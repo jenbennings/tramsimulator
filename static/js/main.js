@@ -8,9 +8,8 @@
     noises = $("audio");
     randomiser = Unrandom([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]);
 
-
     $("#button").on(event_name, function(e) {
-      fart();
+      ding();
 
       e.preventDefault();
       return false;
@@ -18,7 +17,7 @@
 
   };
 
-  var fart = function fart() {
+  var ding = function ding() {
     var noise = noises.eq(randomiser.get());
     noise[0].play();
   };

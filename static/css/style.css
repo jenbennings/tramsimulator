@@ -1,6 +1,3 @@
-/*=========================================
-Reset
-=========================================== */
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
 *, *:before, *:after { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
@@ -11,12 +8,12 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 .group { zoom: 1;}
 
 body {
-	font:16px/1 "Helvetica Neue",Helvetica,Arial,sans-serif;
-	-webkit-font-smoothing:antialiased;
-	text-rendering:optimizeLegibility;
+	font: 16px/1 "Helvetica Neue",Helvetica,Arial,sans-serif;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
 	height: 100%;
-	color:#777;
-	background-color: #73bd48;
+	color: #777;
+	background: #73bd48;
 }
 
 p {
@@ -39,13 +36,31 @@ a {
 	height: 100%;
 }
 
-#container { position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; min-height: 450px; min-width: 300px; }
-body.embed #container { min-height: 0px; }
-body.show-embed-code #container { min-height: 500px; }
+#container {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  min-height: 450px;
+  min-width: 300px;
+}
 
-html, body { height: 100%; font-size: 20vw;}
+body.embed #container {
+  min-height: 0px;
+}
 
-body { background: #68a3a7; }
+body.show-embed-code #container {
+  min-height: 500px;
+}
+
+html, body {
+  height: 100%; font-size: 20vw;
+}
+
+body {
+  background: #68a3a7;
+}
 
 button {
   position: absolute;
@@ -60,7 +75,7 @@ button {
   box-shadow:
     0 10px 0 #888888,
     0 20px 0 #888888,
-    0 30px 0  #888888,
+    0 30px 0 #888888,
     -10px 40px 0 hsla(0, 0%, 0%, .2);
 }
 
@@ -72,7 +87,7 @@ button:before {
   height: 305px;
   border-radius: inherit;
   color: #ff6573;
-  background-color: currentColor;
+  background: currentColor;
   box-shadow:
     0 30px 0 #c54c57,
     0 60px 0 #c54c57,
@@ -92,4 +107,34 @@ button:active:before{
     0 16px #c54c57,
     0 16px 0 #c54c57,
     -5px 20px 0 hsla(0, 0%, 0%, .1);
+}
+
+.logo {
+  margin: 0 auto;
+  margin-top: 20px;
+  display: block;
+}
+
+.share {
+position: absolute;
+left: 50%;
+bottom: 20px;
+width: 300px;
+margin-left: -150px;
+text-align: center;
+
+}
+
+.fb-share-button {
+  position: absolute;
+  bottom: 0px;
+}
+
+.fb_iframe_widget {
+  position: absolute;
+  bottom: 0px;
+}
+
+.twitter-share-button {
+  display: inline-block;
 }
