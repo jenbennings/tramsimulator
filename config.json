@@ -1,1 +1,6 @@
-{"port":8857}
+{
+    "aws-access-key": "AKIAJ7OVQT3XFH2TQTGA",
+    "aws-bucket-name": "tramsimulator",
+    "aws-bucket-website": "tramsimulator.s3-website-ap-southeast-2.amazonaws.com",
+    "port": 8857
+}
