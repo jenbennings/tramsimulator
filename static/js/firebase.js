@@ -4,8 +4,10 @@ var fb = new Firebase("https://tramsimulator.firebaseio.com/incid");
 fb.child('counter').on('value', updateDiv);
 fb.on('value', updatePre);
 
+var event_name = (typeof Touch == "object") ? "touchstart" : "click";
+
 // creates a new, incremental record
-$('#button').on('click', incId);
+$('#button').on(event_name, incId);
 
 // resets the data
 $('#clear').on('click', function() {
