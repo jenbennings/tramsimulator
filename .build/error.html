@@ -1,20 +1,32 @@
 <!doctype html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
 
-	<link rel="shortcut icon" href="/static/images/favicon.ico">
-	<link rel="stylesheet" href="/static/css/style.css">
+		<link rel="shortcut icon" href="/static/images/favicon.ico">
+		<link rel="stylesheet" href="/static/css/style.css">
 
-	
-	<title>Melbourne Tram Simulator 2016</title>
-	
+		
+		<title>Melbourne Tram Simulator 2016</title>
+		
 
-</head>
-<body>
-	
+	</head>
+	<body>
+
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+		
 <script type="text/javascript" charset="utf-8" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
 
 <script type="text/javascript" charset="utf-8">
@@ -37,10 +49,15 @@
 </p>
 
 
-	
-	<script src="//code.jquery.com/jquery.min.js"></script>
-	<script src="/static/js/main.js"></script>
-	
+		
+		<script src="//code.jquery.com/jquery.min.js"></script>
+		<script src="/static/js/main.js"></script>
+		<script src="/static/js/fastclick.js"></script>
+		
 
-</body>
+		<script>$(function() {
+    FastClick.attach(document.body);
+});</script>
+
+	</body>
 </html>

@@ -1,29 +1,32 @@
 <!doctype html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
 
-	<link rel="shortcut icon" href="/static/images/favicon.ico">
-	<link rel="stylesheet" href="/static/css/style.css">
+		<link rel="shortcut icon" href="/static/images/favicon.ico">
+		<link rel="stylesheet" href="/static/css/style.css">
 
-	
-	<title>Melbourne Tram Simulator 2016</title>
-	
+		
+		<title>Melbourne Tram Simulator 2016</title>
+		
 
-</head>
-<body>
-	
+	</head>
+	<body>
 
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+		
 
 <audio>
   <source src="/static/audio/ding.mp3" type="audio/mp3">
@@ -98,6 +101,10 @@
   <source src="/static/audio/ding.mp3" type="audio/mp3">
 </audio>
 
+<div class="share">
+  <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/"  data-type="button_count" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+  <a href="https://twitter.com/share" class="twitter-share-button" data-via="twitterapi" data-lang="en">Tweet</a>
+</div>
 
 <section id="wrapper">
   <img class="logo" src="/static/images/logo.png" alt="">
@@ -105,22 +112,19 @@
     <button id="button"></button>
 </div>
 
-<div class="share">
-
-<div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/"  data-type="button_count" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
-
-<a href="https://twitter.com/share" class="twitter-share-button" data-via="twitterapi" data-lang="en">Tweet</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </section>
 
-</div>
 
 
+		
+		<script src="//code.jquery.com/jquery.min.js"></script>
+		<script src="/static/js/main.js"></script>
+		<script src="/static/js/fastclick.js"></script>
+		
 
-	
-	<script src="//code.jquery.com/jquery.min.js"></script>
-	<script src="/static/js/main.js"></script>
-	
+		<script>$(function() {
+    FastClick.attach(document.body);
+});</script>
 
-</body>
+	</body>
 </html>
