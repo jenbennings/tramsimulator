@@ -113,13 +113,24 @@ button:active:before{
 
 .share {
   position: absolute;
+  text-align: center;
   left: 50%;
   bottom: 20px;
   width: 300px;
   margin-left: -150px;
 }
 
-.fb-share-button, .twitter-share-button {
-  display: inline-block;
-  width: 140px;
- }
+.counter {
+  padding-bottom: 10px;
+  color: white;
+  font-size: 13px;
+}
+
+
+
+.fb-share-button {
+  position: relative;
+  top: -2px;
+  margin-right: 5px;
+  margin-left: 25px;
+}
