@@ -54,10 +54,6 @@ body.show-embed-code #container {
   min-height: 500px;
 }
 
-html, body {
-  height: 100%; font-size: 20vw;
-}
-
 body {
   background: #68a3a7;
 }
@@ -116,25 +112,25 @@ button:active:before{
 }
 
 .share {
-position: absolute;
-left: 50%;
-bottom: 20px;
-width: 300px;
-margin-left: -150px;
-text-align: center;
-
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  bottom: 20px;
+  width: 300px;
+  margin-left: -150px;
 }
+
+.counter {
+  padding-bottom: 10px;
+  color: white;
+  font-size: 13px;
+}
+
+
 
 .fb-share-button {
-  position: absolute;
-  bottom: 0px;
-}
-
-.fb_iframe_widget {
-  position: absolute;
-  bottom: 0px;
-}
-
-.twitter-share-button {
-  display: inline-block;
+  position: relative;
+  top: -2px;
+  margin-right: 5px;
+  margin-left: 25px;
 }
