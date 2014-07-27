@@ -7,6 +7,7 @@
 
 		<link rel="shortcut icon" href="/static/images/favicon.ico">
 		<link rel="stylesheet" href="/static/css/style.css">
+		<script src='https://cdn.firebase.com/js/client/1.0.15/firebase.js'></script>
 
 		
 		<title>Melbourne Tram Simulator 2016</title>
@@ -106,6 +107,11 @@
   <a href="https://twitter.com/share" class="twitter-share-button" data-via="twitterapi" data-lang="en">Tweet</a>
 </div>
 
+
+  <h3>Total number of dings</h3>
+  <div id="counter"></div>
+
+
 <section id="wrapper">
   <img class="logo" src="/static/images/logo.png" alt="">
   <div id="container">
@@ -120,6 +126,8 @@
 		<script src="//code.jquery.com/jquery.min.js"></script>
 		<script src="/static/js/main.js"></script>
 		<script src="/static/js/fastclick.js"></script>
+		<script src="/static/js/firebase.js"></script>
+
 		
 
 		<script>$(function() {
