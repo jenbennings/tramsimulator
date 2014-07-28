@@ -13,5 +13,5 @@ function ding() {
 }
 
 function updateDiv(ss) {
-   $('#counter').text(ss.val()||0);
+  $('#counter').text(ss.val()||0);
 }

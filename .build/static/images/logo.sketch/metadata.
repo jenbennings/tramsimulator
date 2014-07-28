@@ -9,9 +9,11 @@
 	<key>commit</key>
 	<string>62303ad6c9d349aa10492aac5898c2e85098f6c9</string>
 	<key>fonts</key>
-	<array/>
+	<array>
+		<string>Menlo-Regular</string>
+	</array>
 	<key>length</key>
-	<integer>135098</integer>
+	<integer>2224477</integer>
 	<key>version</key>
 	<integer>37</integer>
 </dict>
