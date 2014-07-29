@@ -1,0 +1,6 @@
+.DS_Store
+
+# Cactus stuff
+*.pyc
+.build/
+Icon?

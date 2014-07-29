@@ -13,7 +13,7 @@ body {
 	text-rendering: optimizeLegibility;
 	height: 100%;
 	color: #777;
-	background: #73bd48;
+	background: #6BBE4B;
 }
 
 p {
@@ -54,16 +54,12 @@ body.show-embed-code #container {
   min-height: 500px;
 }
 
-body {
-  background: #68a3a7;
-}
-
 button {
   position: absolute;
-  top: calc(50% - 160px);
-  left: calc(50% - 220px);
-  width: 440px;
-  height: 365px;
+  top: calc(50% - 80px);
+  left: calc(50% - 110px);
+  width: 220px;
+  height: 182px;
   outline: none;
   border: none;
   border-radius: 50%;
@@ -71,25 +67,24 @@ button {
   box-shadow:
     0 10px 0 #888888,
     0 20px 0 #888888,
-    0 30px 0 #888888,
-    -10px 40px 0 hsla(0, 0%, 0%, .2);
+    -10px 30px 0 hsla(0, 0%, 0%, .2);
 }
 
 button:before {
   position: absolute;
-  top: -95px;
-  left: 40px;
-  width: 360px;
-  height: 305px;
+  top: -40px;
+  left: 20px;
+  width: 180px;
+  height: 152px;
   border-radius: inherit;
   color: #ff6573;
   background: currentColor;
   box-shadow:
+    0 10px 0 #c54c57,
+    0 20px 0 #c54c57,
     0 30px 0 #c54c57,
-    0 60px 0 #c54c57,
-    0 90px 0 #c54c57,
-    0 110px 0 #c54c57,
-    -25px 140px 0 hsla(0, 0%, 0%, .1);
+    0 40px 0 #c54c57,
+    -5px 50px 0 hsla(0, 0%, 0%, .1);
   content: '';
   transition: all 50ms;
 }
@@ -97,40 +92,28 @@ button:before {
 button:active:before{
   top: 0px;
   box-shadow:
-    0 16px #c54c57,
-    0 16px #c54c57,
-    0 16px #c54c57,
-    0 16px #c54c57,
-    0 16px 0 #c54c57,
-    -5px 20px 0 hsla(0, 0%, 0%, .1);
+    0 0px 0 #c54c57,
+    0 0px 0 #c54c57,
+    0 0px 0 #c54c57,
+    0 5px 0 #c54c57,
+    0 5px 0 hsla(0, 0%, 0%, .1);
 }
 
 .logo {
+  max-width: 200px;
   margin: 0 auto;
   margin-top: 20px;
   display: block;
 }
 
-.share {
+.counter {
   position: absolute;
-  text-align: center;
   left: 50%;
   bottom: 20px;
   width: 300px;
   margin-left: -150px;
-}
-
-.counter {
-  padding-bottom: 10px;
+  text-align: center;
   color: white;
-  font-size: 13px;
-}
-
-
-
-.fb-share-button {
-  position: relative;
-  top: -2px;
-  margin-right: 5px;
-  margin-left: 25px;
+  font-size: 11px;
+  font-weight: bold;
 }
